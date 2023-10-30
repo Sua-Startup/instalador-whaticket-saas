@@ -12,8 +12,6 @@ Subdominio para API - backoffice
 
 Email válido para certificação SSL
 
-## SSL
-
 ## Vamos instalar?
 
     cd /home && git clone https://github.com/Sua-Startup/instalador-whaticket-saas.git
