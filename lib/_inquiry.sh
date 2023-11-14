@@ -8,6 +8,14 @@ get_mysql_root_password() {
   read -p "> " mysql_root_password
 }
 
+get_link_git() {
+  
+  print_banner
+  printf "${WHITE} 💻 Insira o link do GITHUB do Whaticket que deseja instalar:${GRAY_LIGHT}"
+  printf "\n\n"
+  read -p "> " link_git
+}
+
 
 get_instancia_add() {
   
@@ -198,10 +206,7 @@ inquiry_options() {
   printf "\n\n"
   printf "   [0] Instalar Whaticket\n"
   printf "   [1] Atualizar Whaticket\n"
-  printf "   [2] Deletar Whaticket\n"
-  printf "   [3] Bloquear Whaticket\n"
-  printf "   [4] Desbloquear Whaticket\n"
-  printf "   [5] Alter. dominio Whaticket\n"
+ 
   printf "\n"
   read -p "> " option
 
